@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 
+// Set the engine for EJS
+app.set('view engine', 'ejs');
+app.set('views', './src/views');
+
 //Import routes
 const indexRoutes = require('./src/routes/index');
 
