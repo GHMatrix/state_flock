@@ -3,7 +3,7 @@ const router = express.Router();
 
 //Home route
 router.get('/', (req, res) => {
-    res.send('Welcome to LHI AFIENYA CITY, STATE OF THE FLOCK Home')
+    res.render('index')
 });
 
 // Admin Dashboard route (example)
